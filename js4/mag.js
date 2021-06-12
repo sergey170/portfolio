@@ -4,20 +4,20 @@ function burgHedMain() {
     let hedNav = document.querySelector('.header__nav');
 
     hedBtn.onclick = function () {
-        if (hedNav.style.opacity == 1) {
-            hedNav.style.opacity = 0;
+        if (hedNav.style.top == -500 +"px") {
+            hedNav.style.top = 79 +"px";
         } else {
-            hedNav.style.opacity = 1;
+            hedNav.style.top = -500 +"px";
         }
     }
     let mainNav = document.querySelector('.main__header-nav');
     let mainBtn = document.querySelector('.m-bg');
 
     mainBtn.onclick = function () {
-        if (mainNav.style.opacity == 1) {
-            mainNav.style.opacity = 0;
+        if (mainNav.style.top == -600 +"px") {
+            mainNav.style.top = 80 +"px";
         } else {
-            mainNav.style.opacity = 1;
+            mainNav.style.top = -600 +"px";
         }
     }
 };
@@ -45,7 +45,7 @@ function popCartSlid() {
         slidPopap.style.opacity = 1;
     }
 };
-popCartSlid();
+// popCartSlid();
 //-----------конец попап ----------------
 //------------ Слайдер ---------------------
 function popSlidCart() {
@@ -113,7 +113,7 @@ function popSlidCart() {
         slIm6.style.opacity = 1;
     }
 }
-popSlidCart();
+// popSlidCart();
 //----------конец слайда-------------------
 //--------------подключение попап формы---------------
 function popForm() {
@@ -133,7 +133,7 @@ function popForm() {
          alert('Форма не подключена ЭТО ОБРАЗЕЦ! ');
     }
 }
-popForm();
+// popForm();
 //-------конец форм------------------------
 
 //--------------подключение груп слайдер---------------
