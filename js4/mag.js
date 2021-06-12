@@ -14,7 +14,7 @@ function burgHedMain() {
     let mainBtn = document.querySelector('.m-bg');
 
     mainBtn.onclick = function () {
-        if (mainNav.style.top == -600 +"px") {
+        if (mainNav.style.top == -800 +"px") {
             mainNav.style.top = 80 +"px";
         } else {
             mainNav.style.top = -600 +"px";
